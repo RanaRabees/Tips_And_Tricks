@@ -1,0 +1,16 @@
+****** By following this introduction on content modeling with Contentful you ****** 
+
+  - Signed up for a free Contentful account
+
+  - Created your first space called “Content is King!”
+
+  - Put together a content type called “Latest Education System”
+
+  - Populated the “Content is King!” space with content based on the “Latest Education System” content type
+  
+  - Link :
+        https://www.contentful.com/help/contentful-101/
+        
+https://cdn.contentful.com/spaces/3n6jevk7b4fh/entries?access_token=BjkgNMEXO27cipdpAVcQcUc6Rs4LsvGfULATZ_cix10&content_type=latestEducationSystem
+
+https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/entries?access_token=${process.env.CONTENTFUL_ACCESS_KEY}&content_type=blog

@@ -1,0 +1,27 @@
+ 😁😀🤣😅        😁😀🤣😅        😁😀🤣😅                😁😀🤣😅             😁😀🤣😅               😁😀🤣😅          😁😀🤣😅        😁😀🤣😅
+
+
+If the source control in our VsCode is not working either not showing up any thing then the best remedy to do it is as following:
+
+Step 1:
+          Open the extensions from side bar of Vs code
+          
+Step 2:
+          Search there an extension named as  " @builtin git "
+          
+Step 3:
+          Open the extension whose name is "GIT" and in description name is "Git SCM Integration" 
+          
+Step 4:
+          It will be 'Disabled' enable it by clicking the button
+          
+Step 5:
+          Again 'refresh' the explorer and open the source control now the errror will be resolved!!
+          
+                                                                          :: Help Here ::
+                                                                          
+                                                                         HERE IS VIDEO LINK:
+                                                                                            https://www.youtube.com/watch?v=Ik3wFSyFaNc
+                                                                         
+                                                                         
+ 😁😀🤣😅        😁😀🤣😅        😁😀🤣😅                😁😀🤣😅             😁😀🤣😅               😁😀🤣😅          😁😀🤣😅        😁😀🤣😅

@@ -1,0 +1,13 @@
+
+********* 😣😣😣😣 Upload On Vercel 😘😘😘😘 **********:
+
+1): ------
+  Open Terminal: ( Shift + Tilde ( ` ) )
+2): ------
+  vercel logout
+3): ------
+  vercel login
+4): ------
+  vercel
+5): ------
+  vercel --prod

@@ -1,0 +1,27 @@
+
+
+When I modified my next.config.js file and added some env configurations I started having this issue "Parsing error : Cannot find module 'next/babel'"
+
+Then i resolved this error by following these steps:
+ 
+ 1- First of all I created a file at my root structure named as:
+       " .babelrc "
+ 
+ 2- Then in this file I wrote down the following code:
+     "
+       {
+           "presets": ["next/babel"],
+            "plugins": []
+       } 
+     "
+ 
+ 3- After this in my " .eslintrc.json " which was having its default code, I replaced it with my following code:
+     "
+       {
+          "extends": ["next/babel","next/core-web-vitals"]
+       }
+    
+     "
+     
+ 4- Finally! then I restarted my server refreshed my Vscode saved all the files killed my terminal, started again and the error was just gone...!!!
+ 

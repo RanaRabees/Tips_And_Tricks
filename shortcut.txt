@@ -1,0 +1,10 @@
+
+Setting Execution Policy While Creating a Virtual Environment it is restricted in most computers
+First run this command:
+
+Get-ExecutionPolicy
+
+Then run this command to unrestrict it:
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force
+
+Then run again this command to 

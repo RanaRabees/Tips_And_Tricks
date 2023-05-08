@@ -1,0 +1,66 @@
+********* 😎😎😎 Here Is Document Links 😘😘😘 **********:
+------
+  https://www.sanity.io/docs/overview-introduction
+------
+  https://www.sanity.io/docs/create-a-schema-and-configure-sanity-studio
+
+********* First Open CMD( Command Prompt ) **********:
+
+------
+  And Run This Command :
+
+------
+  And Then cd in your sanity project folder:
+
+------
+  And Then code . for open vscode
+
+********* 😍😍😍 Second Create A userdata.js file in schema/userdata.js 🤔🤔🤔 **********:
+------
+  and then paste this code :
+
+------
+  // schemas/userdata.js
+
+
+export default {
+  name: 'RanaRabees',
+  type: 'document',
+  title: 'RanaRabees',
+  fields: [
+    {
+      name: 'name',
+      type: 'string',
+      title: 'Name'
+    }
+  ]
+}
+
+------
+  And Then Open schemas/index.js
+ 	Paste This Code :
+
+------
+  schemas/index.js
+
+import blockContent from './blockContent'
+import category from './category'
+import post from './post'
+import author from './author'
+import RanaRabees from './userdata'
+
+
+export const schemaTypes = [post, author, category, blockContent, RanaRabees]
+
+********* 🤩🤩🤩 Upload On Vercel 😅😅😅 **********:
+
+------
+  Open Terminal: ( Shift + Tilde ( ` ) )
+------
+  vercel logout
+------
+  vercel login
+------
+  vercel
+------
+  vercel --prod
