@@ -1,0 +1,9 @@
+1)* 
+
+	npm i next --update
+2)* 
+
+	npm i next@latest
+3)* 
+
+	npx next --version
