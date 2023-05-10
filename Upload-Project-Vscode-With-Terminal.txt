@@ -1,0 +1,41 @@
+To upload a project on GitHub with VSCode terminal,
+you can follow these steps:
+
+1):
+Open your project folder in VSCode.
+In the VSCode terminal, type the following command:
+
+git init
+
+This will initialize a Git repository in your project folder.
+
+2):
+Once the repository is initialized, type the following command
+to add all of your project files to the staging area:
+
+git add .
+
+3):
+Type the following command to commit your 
+changes to the local repository:
+
+git commit -m "Initial commit"
+
+4):
+Type the following command to add a remote 
+repository to your local repository:
+
+git remote add origin https://github.com/[your_username]/[your_project_name].git
+
+(**** Replace [your_username] and [your_project_name] with your GitHub username and project name, respectively ****)
+
+5): 
+Type the following command to push your changes
+to the remote repository:
+
+git push -u origin master
+
+
+This will push your changes to the remote repository and set up a tracking branch for the master branch in your local repository.
+
+Once you have completed these steps, your project will be uploaded to GitHub. You can then access it from the GitHub website.
