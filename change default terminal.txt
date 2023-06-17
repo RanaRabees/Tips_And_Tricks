@@ -1,0 +1,7 @@
+For Changing default terminal in vscode:
+
+	Open Visual Studio Code.
+	Press CTRL + SHIFT + P to open the Command Palette.
+	Search for “Terminal: Select Default Profile”
+		(previously “Terminal: Select Default Shell”)
+	Select your preferred shell. In my case I selected “Command Prompt”
