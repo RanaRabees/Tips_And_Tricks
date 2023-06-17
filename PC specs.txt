@@ -1,0 +1,46 @@
+
+****(1):-To check your PC specs using CMD, follow these steps:
+
+	-Open Command Prompt by pressing Windows+R and typing cmd.
+	-Type systeminfo and press Enter.
+	-A window will open with a list of your PC's specs,
+	- including the processor, memory, hard drive, and operating system.
+	
+****(2):-You can also use the following commands to get specific information about your PC's specs:
+
+	-wmic os get Caption
+		will display the name of your operating system.
+	-wmic os get Version 
+		will display the version of your operating system.
+	-wmic memory get TotalPhysicalMemory
+		will display the amount of RAM in your PC.
+	-wmic diskdrive get Model
+		will display the model of your hard drive.
+	-wmic processor get Name
+		will display the name of your processor.
+
+
+
+****(3):-Here is an example of the output of the systeminfo command:
+
+	System Information
+
+	Host Name: DESKTOP-XXXXXX
+
+	Operating System: Windows 10 Pro
+
+	OS Version: 10.0.19044
+
+	System Type: X64-based PC
+
+	Processor(s): Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+
+	Memory: 16 GB
+
+	Available Physical Memory: 15,936 MB
+
+	Page File: 4,096 MB
+
+
+****(Help?):-For more information about using CMD, you can consult the Windows documentation
+		or search for online tutorials.
