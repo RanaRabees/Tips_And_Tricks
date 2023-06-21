@@ -1,0 +1,56 @@
+My Skills:
+
+Html5, Css3, Javascript, Typescript, Object - C, CSharpScript, Solidity, 
+Kotlin, C++, Java, JSON, XMl, ASP, Bablel, Python, Numpy, Panda
+Keras, TensorFlow, Scikit Learn, Dart, C, C++, Php, Ruby, Swift, 
+Tailwindcss, JQuerry, Sass, Middleware, JWT, UUID, Drizzle, PgAdmin, 
+Postgresql, Django, MongoDb, Mongo Atlas, Express_Js, React_Js, 
+ReactNative, Angular_Js, ReactNative, Node_Js, Next_Js, AWS, AWSComposer, 
+API, RestApi, Server_less_Api, Android SDK
+
+Experiences:
+
+Server_less_Api Development, Blockchain Development,
+MetaVerse Development, Game Development, AWS, AWSComposer
+Web Development, App Development, AI/IOT Development
+
+Web Dev Tools:
+
+Html5, Css3, Bootstrap, Javascript, Typescript, Tailwindcss, 
+Chakra, JQuerry, Sass, XMl, ASP, JSON, ASP, Three_JS, React_Js, Next_Js
+
+Design Tools:
+
+Figma, Gamma, Plasmic, Adobe Photoshop, Adobe Illustrator,
+Adobe Premiere Pro, Adobe Indesign, Character Animator, Adobe XD,
+Inkscape, Sketch, Blender, Canva
+
+Clouds:
+
+Vercel, AWS, Azure, Heroku, Netlify, FireBase, Digital Ocean, 
+PythonAnywhere, GitJetpack
+
+Code Editor & Ides:
+
+Visual Studio Code, Android Studio, Intellij Idea, Jupiter Lab,
+Spider Lab, Sublime, Atom
+
+Databases:
+
+Neon, Mongodb, Mongodb Atlas, Postgres, PostgreSQL, PgAdmin, MySql,
+Oracle Database, Microsoft SQL Server, Redis, SQLite, Apache Cassandra,
+Amazon DynamoDB, Microsoft Access, CouchDB, Amazon RDS,
+Microsoft Azure SQL Database, Google Cloud Platform
+
+FrameWorks:
+ 
+Django, Gatsby, NextJs, ReactJs, AngularJs, Angular, Bootstrap, jQuery
+Flask, ASP.NET Core, .NET Core, React Native
+
+Mobile Dev Tools:
+
+ReactNative, Expo
+
+Game Dev Tools:
+
+Core, Unity
