@@ -3,7 +3,7 @@ My Skills:
 Html5, Css3, Javascript, Typescript, Object - C, CSharpScript, Solidity, 
 Kotlin, C++, Java, JSON, XMl, ASP, Bablel, Python, Numpy, Panda
 Keras, TensorFlow, Scikit Learn, Dart, C, C++, Php, Ruby, Swift, 
-Tailwindcss, JQuerry, Sass, Middleware, JWT, UUID, Drizzle, PgAdmin, 
+Tailwindcss, Shadcn, JQuerry, Sass, Middleware, JWT, UUID, Drizzle, PgAdmin, 
 Postgresql, Django, MongoDb, Mongo Atlas, Express_Js, React_Js, 
 ReactNative, Angular_Js, ReactNative, Node_Js, Next_Js, AWS, AWSComposer, 
 API, RestApi, Server_less_Api, Android SDK
