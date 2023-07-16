@@ -1,0 +1,8 @@
+npm i @types/html-minifier-terser
+npm install @types/json-schema --save-dev
+npm install @types/q --save-dev
+npm install @types/source-list-map --
+npm install @types/uglify-js --save-dev
+npm install --save-dev @types/webpack
+npm install --save-dev @types/webpack-sources
+npm install --save-dev @types/yargs
