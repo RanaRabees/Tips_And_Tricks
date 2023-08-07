@@ -1,0 +1,9 @@
+How do I install Microsoft Store back on Windows 10?
+
+  * Reinstall the app
+  * Press Windows logo key + x.
+  * Select Windows PowerShell (Admin)
+  * Select Yes.
+  * Copy and paste the command: Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+  * Press Enter.
+  * Restart your computer.
