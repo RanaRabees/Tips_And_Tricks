@@ -1,0 +1,83 @@
+// https://fakestoreapi.com/products?limit=8
+[
+    {
+        "id": 1,
+        "title": "Boy's hoodie with zipper",
+        "price": 223,
+        "image": "https://fullstack-ecommerce-site.vercel.app/_next/image?url=%2Fboy1.png&w=640&q=75",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 2,
+        "title": "Kids Nissan Silvia Hoodie",
+        "price": 356,
+        "image": "https://cdn.shopify.com/s/files/1/0675/5893/2802/products/kids-nissan-silvia-hoodie-856978_5000x.jpg?v=1668146991",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 3,
+        "title": "Flex Push Button Bomber",
+        "price": 225,
+        "image": "https://fullstack-ecommerce-site.vercel.app/_next/image?url=%2Fslide7.png&w=640&q=75",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 4,
+        "title": "Raglan Sweatshirt",
+        "price": 195,
+        "image": "https://fullstack-ecommerce-site.vercel.app/_next/image?url=%2Fslide10.png&w=640&q=75",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 5,
+        "title": "Brushed Raglan Sweatshirt",
+        "price": 165,
+        "image": "https://fullstack-ecommerce-site.vercel.app/_next/image?url=%2Fslide0.png&w=640&q=75",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 6,
+        "title": "Flex Sweatshirt",
+        "price": 173,
+        "image": "https://fullstack-ecommerce-site.vercel.app/_next/image?url=%2Fslide2.png&w=640&q=75",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 7,
+        "title": "Muscle Tank",
+        "price": 528,
+        "image": "https://fullstack-ecommerce-site.vercel.app/_next/image?url=%2Fslide8.png&w=640&q=75",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 8,
+        "title": "Brushed Bomber",
+        "price": 86,
+        "image": "https://fullstack-ecommerce-site.vercel.app/_next/image?url=%2Fslide9.png&w=640&q=75",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    }
+]
