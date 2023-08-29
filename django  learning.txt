@@ -1,0 +1,138 @@
+from email.policy import default
+from string import punctuation
+from django.http import HttpResponse
+from django.shortcuts import render
+from sympy import stationary_points
+from jupiter.models import result
+from . import views
+
+def home(request):
+    return render(request,'home.html')
+
+
+def index(request):
+    return render(request,'index.html')
+
+
+def about(request):
+    return render(request,'about.html')
+
+def book(request):
+    b=''
+    if request.method == 'POST':
+        school=request.POST.get('school')
+        physics=request.POST.get('physics')
+        chemistry=request.POST.get('chemistry')
+        math=request.POST.get('math')
+        bio=request.POST.get('bio')                 
+        data=result(school=school,physics=physics,chemistry=chemistry,math=math,bio=bio)
+        data.save()
+        b='your data has been sent sir you can go and check'
+    return render(request,"about.html",{'b':b})
+        
+        
+        
+        
+def text(request):
+    Atext=request.POST.get('text','default')
+    rpu=request.POST.get('rpu','off')
+    upper=request.POST.get('upper','off')
+    nl=request.POST.get('nl','off')  
+    # print(rpu)
+    # print(Atext)
+    if rpu == "on" :
+        # analyzed=Atext    
+        punctuations = ''' ? ` , : , @  ; ,% ^ <<,,,>>>..!!!| “ ”, _ - ( ), { },[ ] ,  ,*, \\\::"""'  ~ , / , , #,$, &  ''' 
+        analyzed=""
+        for i in Atext:
+            if i not in punctuations:
+               analyzed=analyzed+i 
+        data={'rpu': rpu , 'btext': analyzed }         
+        return render(request,'text.html', data)
+    elif(upper == "on") :
+        punctuations = '''?`,:,@;,%^<<,,,>>>{..!!!|“”,_-(),,[],,*,\\\}::"""'~,/,,#,$,&''' 
+        analyzed=""
+        for i in Atext:
+            if i not in punctuations:
+               analyzed=analyzed + i.upper()                        
+            data={'rpu': rpu , 'btext': analyzed }         
+        return render(request,'text.html', data)
+    
+    elif(nl == "on") :               
+        analyzed=""
+        for i in Atext:
+            if i != '\n' and i != '\r':
+               analyzed=analyzed + i.upper() 
+            #    analyzed=analyzed                       
+            data={'rpu': rpu , 'btext': analyzed }         
+        return render(request,'text.html', data)     
+            
+              
+    else:
+        return HttpResponse(" !!! oooo MENTAL MELTAL BHIA APP NE SUB KUCH KUTTAM KAR DIYA HE  HA HA HA HI HI HI !!! ")
+                    
+       
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<body bgcolor="buldy">
+
+    <form  method="GET" action="/text">
+     
+
+        <textarea name="text" id="text" cols="80" rows="10" style="height: 112px; width: 744px;"></textarea>
+        <br>
+        <input type="checkbox" name="rpu"> remove punctuation
+        <br>
+        <button type="radio"> upper case</button>
+        <br>
+        <button type="submit">analyze the text</button>
+        <br>
+        <input type="radio" value="section a" name="section a" id="section a " class="section a"  >small
+        <input type="radio" value="section b" name="section b" id="section b " class="section b " >capital
+        <input type="radio" value="section c" name="section a" id="section c " class="section c " >heavy
+        <input type="radio" value="section d" name="section b" id="section d " class="section d " >light
+        
+</body>
+
+
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text</title>
+</head>
+<body >
+    {{text}}
+<H1>yeh asal main khali punctuation button hey agar on hey to punctuation naen hain ok !!!!  han kiy hey ???
+    
+    {{ rpu }}
+
+!!!  
+achha ""on"" hey tao phir lo !!!
+</H1>
+ <h1>aor yeh .... yeh bhi text hey jo likha hey !!!!
+     
+     </h1><br>
+     <h1>{{ btext }}</h1>  <h1>{{nlr}}</h1> 
+</body></html>
+
+
