@@ -1,0 +1,74 @@
+Task1:
+Question:
+You need to write a ocde in python that finds all such numbers which are divisible by 7 but are not a multiple of 5,
+between 2000 and 3200 (both included).
+Print the obtained numbers in a comma-separated sequence on a single line.
+
+Task2:
+You need code a program that calculates and prints the value according to the given formula:
+P = Square root of [(2 * A * B)/C]
+Following are the fixed values of A and B:
+A is 50. B is 30.
+The values of the literal C should be taken as console input to your program in a comma-separated sequence.
+Example
+Let us assume the following comma separated input sequence is given to the program:
+100,150,180
+The output of the program should be:
+18,22,24
+
+Task3:
+You need to write a code that takesa comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
+Suppose the following input is supplied to the program:
+without,hello,bag,world
+Then, the output should be:
+bag,hello,without,world
+
+Task4:
+You need to write a program that takes sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
+Suppose the following input is supplied to the program:
+Hello world
+Practice makes perfect
+Then, the output should be:
+HELLO WORLD
+PRACTICE MAKES PERFECT
+
+Task5: 
+You need to write a program that counts the number of vowels in a given sentence as input from console. 
+Suppose the following input is supplied to the program:
+Hello world
+Practice makes perfect
+Then, the output should be:
+a appeared 2 times
+e appeared 5 times
+i appeared  1 time
+o appeared 2 times
+u appeared 0 time
+PRACTICE MAKES PERFECT
+
+Task6: 
+You need to trace and make a list of all such numbers from1000 to 3000 in which all the digits are even numbers.
+
+Task7:
+You need to write a code which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence.
+Example:
+0100,0011,1010,1001
+Then the output should be:
+1010
+Reference: https://www.datacamp.com/.../python-data-type-conversion
+https://stackoverflow.com/.../converting-binary-to...
+
+
+Task8:
+Write a program that accepts a sentence and calculate the number of letters and digits.
+Suppose the following input is supplied to the program:
+hello world! 123
+Then, the output should be:
+LETTERS 10
+DIGITS 3
+
+Task9:
+With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
+Suppose the following input is supplied to the program:
+8
+Then, the output should be:
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}

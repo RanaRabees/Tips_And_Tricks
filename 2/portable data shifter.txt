@@ -1,0 +1,58 @@
+class Fast_Food():    
+    def __init__(self,shop_name,city,area,taste_level,taste_level_1,food_item):
+        """ This is a Food Items class"""    
+        self.shop_name     = shop_name
+        self.city          = city
+        self.area          = area
+        self.taste_level   = taste_level
+        self.taste_level_1 = taste_level_1
+        self.food_item     = food_item   
+    def shop_name(self):
+        print(f"This {self.shop_name}'s shop is running very well in this area and have a very well reputed.")             
+    def city(self):    
+        print(f"This shop has only one branch in {self.city} city!!! so be careful to very cunning fraud.")
+    def taste_level_1(self):
+        print(f"The Taste Leve of {self.shop_name} is very high and you will very enjoy this atmosphere of natural beauty.")
+    def area(self):
+        print(f"""
+                This local {self.area} area is in {self.city} city!!! public should be 
+                very thankfull to {self.shop_name} at this high standard food items at these prices!! """)
+    def taste_level(self):
+        print(f'''
+                If you have a good sense of taste 
+                you wil really like{self.taste_level} this.''')    
+    def food_item(self):
+        print(f'''
+                This {self.food_item} is at very reasonable price and 
+                very good at taste for you at this time when each and every thing is going costly.''') 
+    def get_name(self):
+        return self.shop_name 
+    def set_name(self, new_name):
+        self.shop_name = new_name
+        return self.shop_name
+
+              
+Fast_Food_1 = Fast_Food("madina_food","rawalpindi","taxila"," top_most ","at_grand_level","Burger")
+Fast_Food_2 = Fast_Food("rawal foods","rawalakot","pakka_katha","zabardast","kafi_behtar","fish_karahi")
+Fast_Food_3 = Fast_Food("dam_pukht_food","peshawar","bala_hasar","bohot_aala","bohot_mazedar","bakra_dam_pukht")
+
+Fast_Food.food_item(Fast_Food_1)
+
+                	This Burger is at very reasonable price and 
+                	very good at taste for you at this time when each and every thing is going costly.
+
+Fast_Food.area(Fast_Food_1)
+
+	This local taxila area is in rawalpindi city!!! public should be 
+                	very thankfull to madina_food at this high standard food items at these prices!! 
+
+Fast_Food.taste_level(Fast_Food_1)
+
+	If you have a good sense of taste 
+                	you wil really like top_most  this.
+	Fast_Food_1.area
+
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism

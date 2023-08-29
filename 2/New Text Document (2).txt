@@ -1,0 +1,29 @@
+class Hospital():
+    def __init__(self,name,age,number,disease):
+        """This is our malangi group product, I am jonier malangi of malangi group, This is our project for Hospital"""
+        self.mareez_name = name
+        self.mareez_age = age
+        self.mareez_number = number
+        self.mareez_disease = disease
+    def take_madicine(self):
+        print(f"{self.mareez_name} is taking medicine")
+    def mareez_details(self):
+        print(f"""
+        Name: {self.mareez_name}
+        age: {self.mareez_age}
+        number: {self.mareez_number}
+        disease: {self.mareez_disease}
+        """)          
+    def attendent(self):
+        print(f"this person holding of the authorised card \nis allowed to stay with patient in the ward \nand can go out for 30 minutes only to cnateen.")
+    def get_name(self):
+        return self.name
+              
+    def set_name(self,newName):
+        self.patient_name = new_name
+              
+    def get_disease(self):
+        return self.mareez_disease
+    def set_name(self,disease):
+        self.mareez_disease = new_disease   
+            

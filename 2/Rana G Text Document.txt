@@ -1,0 +1,262 @@
+Monty Python's Flying Circus.
+
+What is Python?
+Python is a widely-used, interpreted, object-oriented, and high-level programming language with dynamic semantics, used for general-purpose programming.
+
+And while you may know the python as a large snake, the name of the Python programming language comes from an old BBC television comedy sketch series called Monty Python's Flying Circus.
+
+At the height of its success, the Monty Python team were performing their sketches to live audiences across the world, including at the Hollywood Bowl.
+
+Since Monty Python is considered one of the two fundamental nutrients to a programmer (the other being pizza), Python's creator named the language in honor of the TV show.
+
+Who created Python?
+One of the amazing features of Python is the fact that it is actually one person's work. Usually, new programming languages are developed and published by large companies employing lots of professionals, and due to copyright rules, it is very hard to name any of the people involved in the project. Python is an exception.
+
+There are not many languages whose authors are known by name. Python was created by Guido van Rossum, born in 1956 in Haarlem, the Netherlands. Of course, Guido van Rossum did not develop and evolve all the Python components himself.
+
+
+
+
+Guido van Rossum
+
+
+The speed with which Python has spread around the world is a result of the continuous work of thousands (very often anonymous) programmers, testers, users (many of them aren't IT specialists) and enthusiasts, but it must be said that the very first idea (the seed from which Python sprouted) came to one head - Guido's.
+
+
+
+
+
+A hobby programming project
+The circumstances in which Python was created are a bit puzzling. According to Guido van Rossum:
+
+In December 1989, I was looking for a "hobby" programming project that would keep me occupied during the week around Christmas. My office (...) would be closed, but I had a home computer, and not much else on my hands. I decided to write an interpreter for the new scripting language I had been thinking about lately: a descendant of ABC that would appeal to Unix/C hackers. I chose Python as a working title for the project, being in a slightly irreverent mood (and a big fan of Monty Python's Flying Circus).
+Guido van Rossum
+Python goals
+In 1999, Guido van Rossum defined his goals for Python:
+
+an easy and intuitive language just as powerful as those of the major competitors;
+open source, so anyone can contribute to its development;
+code that is as understandable as plain English;
+suitable for everyday tasks, allowing for short development times.
+About 20 years later, it is clear that all these intentions have been fulfilled. Some sources say that Python is the most popular programming language in the world, while others claim it's the second or the third.
+
+
+
+
+The Ministry of Silly Walks Concept
+
+
+Either way, it still occupies a high rank in the top ten of the PYPL PopularitY of Programming Language and the TIOBE Programming Community Index.
+
+Python isn't a young language anymore. It is mature and trustworthy. It's not a one-hit wonder. It's a bright star in the programming firmament, and time spent learning Python is a very good investment.
+
+
+
+Experiment with creating new files and running your code. Try to output a different message to the screen, e.g., roar!, meow, or even maybe an oink!. Try to spoil and fix your code - see what happens.
+
+
+
+Python Essentials 1:
+Module 4
+Functions, Tuples, Dictionaries, Exceptions, and Data Processing
+
+In this module, you will cover the following topics:
+
+code structuring and the concept of function;
+function invocation and returning a result from a function;
+name scopes and variable shadowing;
+tuples and their purpose, constructing and using tuples;
+dictionaries and their purpose, constructing and using dictionaries;
+exceptions – the try statement and the except clause, Python built-in exceptions, code testing and debugging.
+
+
+
+Why do we need functions?
+You've come across functions many times so far, but the view on their merits that we have given you has been rather one-sided. You've only invoked the functions by using them as tools to make life easier, and to simplify time-consuming and tedious tasks.
+
+When you want some data to be printed on the console, you use print(). When you want to read the value of a variable, you use input(), coupled with either int() or float().
+
+You've also made use of some methods, which are in fact functions, but declared in a very specific way.
+
+Now you'll learn how to write your own functions, and how to use them. We'll write several functions together, from the very simple to the rather complex, which will require your focus and attention.
+
+
+It often happens that a particular piece of code is repeated many times in your program. It's repeated either literally, or with only a few minor modifications, consisting of the use of other variables in the same algorithm. It also happens that a programmer cannot resist simplifying the work, and begins to clone such pieces of code using the clipboard and copy-paste operations.
+
+It could end up as greatly frustrating when suddenly it turns out that there was an error in the cloned code. The programmer will have a lot of drudgery to find all the places that need corrections. There's also a high risk of the corrections causing errors.
+
+We can now define the first condition which can help you decide when to start writing your own functions: if a particular fragment of the code begins to appear in more than one place, consider the possibility of isolating it in the form of a function invoked from the points where the original code was placed before.
+
+
+It may happen that the algorithm you're going to implement is so complex that your code begins to grow in an uncontrolled manner, and suddenly you notice that you're not able to navigate through it so easily anymore.
+
+
+
+You can try to cope with the issue by commenting the code extensively, but soon you find that this dramatically worsens your situation - too many comments make the code larger and harder to read. Some say that a well-written function should be viewed entirely in one glance.
+
+A good and attentive developer divides the code (or more accurately: the problem) into well-isolated pieces, and encodes each of them in the form of a function.
+
+This considerably simplifies the work of the program, because each piece of code can be encoded separately, and tested separately. The process described here is often called decomposition.
+
+The concept of decomposition
+
+
+We can now state the second condition: if a piece of code becomes so large that reading and understating it may cause a problem, consider dividing it into separate, smaller problems, and implement each of them in the form of a separate function.
+
+This decomposition continues until you get a set of short functions, easy to understand and test.
+
+
+Decomposition
+It often happens that the problem is so large and complex that it cannot be assigned to a single developer, and a team of developers have to work on it. The problem must be split between several developers in a way that ensures their efficient and seamless cooperation.
+
+The concept of sharing the work/working together
+
+
+It seems inconceivable that more than one programmer should write the same piece of code at the same time, so the job has to be dispersed among all the team members.
+
+This kind of decomposition has a different purpose to the one described previously - it's not only about sharing the work, but also about sharing the responsibility among many developers.
+
+Each of them writes a clearly defined and described set of functions, which when combined into the module (we'll tell you about this a bit later) will give the final product.
+
+
+
+This leads us directly to the third condition: if you're going to divide the work among multiple programmers, decompose the problem to allow the product to be implemented as a set of separately written functions packed together in different modules.
+
+Where do the functions come from?
+In general, functions come from at least three places:
+
+from Python itself - numerous functions (like print()) are an integral part of Python, and are always available without any additional effort on behalf of the programmer; we call these functions built-in functions;
+from Python's preinstalled modules - a lot of functions, very useful ones, but used significantly less often than built-in ones, are available in a number of modules installed together with Python; the use of these functions requires some additional steps from the programmer in order to make them fully accessible (we'll tell you about this in a while);
+directly from your code - you can write your own functions, place them inside your code, and use them freely;
+there is one other possibility, but it's connected with classes, so we'll omit it for now.
+Functions come from Python, modules, code
+
+
+
+NAVBAR SHORTCUTS AND LINKS BUTTONS AND KHIRKIYAN
+
+
+
+(1)
+
+<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Adventure Team
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Join Action Team</a></li>
+                    <li><a class="dropdown-item" href="#">Select Packages</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Learn How to skill an Adventurer</a></li>
+                    </ul>
+                  </li>
+
+
+
+(2)
+
+<a class="nav-link active" aria-current="page" href="#">Adventures List</a>
+                    <a class="nav-link active" aria-current="page" href="#">Contact Adventure Kings</a>
+                    <a class="nav-link active" aria-current="page" href="#">Details About Adventurers</a>
+                    <a class="nav-link active" aria-current="page" href="#">Best Services For You</a>
+
+
+
+
+
+
+
+contact page data
+
+
+{% extends "home.html" %}
+{% block title %}
+  
+{% endblock title %}
+{% block body %}
+  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>را بطہ کریں </title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'st.css'%}">
+</head>
+<body bgcolor="blue">
+
+    <h1 class="text-center">﴾۩ ﷽ ۩﴿</h1><br> <h1 class="text-center">﴾۩ ﷽ ۩﴿</h1><br>
+    <h1 class="text-center">Assalamualaikum</h1>
+    <h2 class="st"> THIS IS OUR CONTACT PAGE  </h2>
+    <H1 class="text-center">WELL COME</H1>
+    <h1 class="text-center">یہ ہمارے اور آپ کے تعاون اور محبت کا ذریعہ ہے-</h1>
+    
+    <h1 class="text-center">!!!پیار بڑھانے کے لیے اس نمبر پر رابطہ کریں !!!03453565169 !!!</h1>
+</body>
+
+</div>
+
+    <h5 class="text-center"> Contact No 03453565169 </h5>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+
+        <img src="/static/49.JPG" class="d-block w-100 " alt="..." />
+        {% comment %} <img src="/static/22.JPG" class="d-block w-100" alt="..." /> {% endcomment %}
+        {% comment %} <img src="/static/26.JPG" class="d-block w-100" alt="..." /> {% endcomment %}
+        {% comment %} <img src="/static/20.JPG" class="d-block w-100" alt="..." /> {% endcomment %}
+      </div>
+      
+      <h1></h1>
+      </div>
+
+      <div class="carousel-item">
+        <img src="/static/50.JPG" class="d-block w-100" alt="..." />
+        <img src="/static/51.JPG" class="d-block w-100" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        {% comment %} <img src="/static/14.JPG " class="d-block w-100" alt="..."> {% endcomment %}
+        <!-- <img src="/static/18.JPG " class="d-block w-100" alt="..."> -->
+        <div class="carousel-item" align="center">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  </div>
+</div>
+</html>
+</html>
+
+{% endblock body %}
+
+
+
+
+چل بھاگ یھاں سے
+
+
+آپ بھلا کون ہو
+
+
+میں نہیں جانتا آپ کو
+
+
+آپ خطرناک جگہ پر ہو لھٰذا ذرا سوچ سمجھ کر بات کرنا یہ ہمارا رابطہ صفحہ ہے
