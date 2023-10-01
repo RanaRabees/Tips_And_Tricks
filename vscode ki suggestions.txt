@@ -1,0 +1,7 @@
+
+
+is code ko vscode me setting.json wali file main paste karnay say aap kay project ki tamam languages
+ki snippets/suggestions chal parain gi aor aap ko hints dain gein.
+
+
+"emmet.includeLanguages": {"javascript": "javascriptreact"},
