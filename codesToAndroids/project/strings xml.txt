@@ -1,0 +1,7 @@
+************************strings xml********************
+<resources>
+    <string name="app_name">Birthday MUBARIK Ho Bhai Saab</string>
+    <string name="enter_the_name">Birthday Kis Ki hey</string>
+    <string name="create_birthday_card">Create Birthday Card</string>
+    <string name="input_hint_text">RANA AMIR HUSSAIN </string>
+</resources>
