@@ -1,0 +1,47 @@
+Initialize Typescript Project
+
+
+	Create and navigate to new directory
+
+		mkdir typescript
+		
+		cd typescript
+
+
+	Initiate a node project in the directory
+
+		npm init -y
+	Install required packages
+
+		npm i --save-dev @types/node
+
+	Initiate typescript in the project
+
+		tsc --init
+
+	Update tsconfig.json by changing properties as follows
+
+		{
+  			"compilerOptions": {
+   				...
+    				"target": "ES2020", // or higher/latest
+    				"module": "nodenext"
+  			}
+		}
+	
+	Update package.json and following to it before scripts
+
+		"type": "module",
+
+	Create app.ts file or any other
+
+	Transforms TypeScript code into JavaScript code
+
+		tsc
+
+	Run the app
+
+		node app.js
+
+
+Now It's Ok
