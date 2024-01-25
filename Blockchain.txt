@@ -1,0 +1,65 @@
+Full Blockchain Notes : https://github.com/RanaRabees/Tips_And_Tricks/blob/main/Blockchain.txt
+
+Video Link: https://www.youtube.com/watch?v=RkYVVC2vXho
+
+Channel Link: https://www.youtube.com/@web3mantra
+
+Channel Name: web3Mantra
+
+Video Name: Complete Blockchain Development Course for Beginners in Hindi
+
+🧾Chapters:
+00:00:00 -  Introduction = https://www.youtube.com/watch?v=RkYVVC2vXho&t=0s
+00:03:17 -  Roadmap to blockchain development = https://www.youtube.com/watch?v=RkYVVC2vXho&t=197s
+00:16:15 -  Ethereum Basics = https://www.youtube.com/watch?v=RkYVVC2vXho&t=975s
+00:26:18 -  Overview to blockchain development = https://www.youtube.com/watch?v=RkYVVC2vXho&t=1578s
+01:06:07 -  Solidity Course Introduction = https://www.youtube.com/watch?v=RkYVVC2vXho&t=3967s
+01:10:34 -  Solidity overview & Prerequisite = https://www.youtube.com/watch?v=RkYVVC2vXho&t=4234s
+01:17:33 -  Remix IDE & Solidity Basic Structure = https://www.youtube.com/watch?v=RkYVVC2vXho&t=4653s
+01:35:22 -  Solidity Types & Variables = https://www.youtube.com/watch?v=RkYVVC2vXho&t=5722s
+01:57:56 -  Functions (View, Pure, Returns) = https://www.youtube.com/watch?v=RkYVVC2vXho&t=7076s
+02:12:42 -  State, Local & Global Variables = https://www.youtube.com/watch?v=RkYVVC2vXho&t=7962s
+02:32:54 -  Variable scopes (Public, Internal, Private) = https://www.youtube.com/watch?v=RkYVVC2vXho&t=9174s
+02:48:16 -  Memory & Storage = https://www.youtube.com/watch?v=RkYVVC2vXho&t=10096s
+03:01:01 -  Operators - 1 (Arithmetic, Relational & Logical) = https://www.youtube.com/watch?v=RkYVVC2vXho&t=10861s
+03:17:07 -  Operators - 2 (Bitwise, Assignment & Conditional) = https://www.youtube.com/watch?v=RkYVVC2vXho&t=11827s
+03:36:52 -  If-Else Statement = https://www.youtube.com/watch?v=RkYVVC2vXho&t=13012s
+03:48:06 -  Loops (While, do-while, For) = https://www.youtube.com/watch?v=RkYVVC2vXho&t=13686s
+04:05:29 -  Arrays = https://www.youtube.com/watch?v=RkYVVC2vXho&t=14729s
+04:20:44 -  Struct = https://www.youtube.com/watch?v=RkYVVC2vXho&t=15644s
+04:31:17 -  Enums = https://www.youtube.com/watch?v=RkYVVC2vXho&t=16277s
+04:37:15 -  Mapping = https://www.youtube.com/watch?v=RkYVVC2vXho&t=16635s
+04:42:40 -  Constructor = https://www.youtube.com/watch?v=RkYVVC2vXho&t=16960s
+04:51:27 -  Events = https://www.youtube.com/watch?v=RkYVVC2vXho&t=17487s
+05:01:15 -  Payable = https://www.youtube.com/watch?v=RkYVVC2vXho&t=18075s
+05:07:28 -  Error Handling (Require, assert, revert) = https://www.youtube.com/watch?v=RkYVVC2vXho&t=18448s
+05:22:02 -  Function Modifiers = https://www.youtube.com/watch?v=RkYVVC2vXho&t=19322s
+05:27:46 -  Units = https://www.youtube.com/watch?v=RkYVVC2vXho&t=19666s
+05:39:57 -  Hashing functions = https://www.youtube.com/watch?v=RkYVVC2vXho&t=20397s
+06:03:38 -  Inheritance = https://www.youtube.com/watch?v=RkYVVC2vXho&t=21818s
+06:18:35 -  Function visibility (Public, Private, Internal, External) = https://www.youtube.com/watch?v=RkYVVC2vXho&t=22715s
+06:28:11 -  Library = https://www.youtube.com/watch?v=RkYVVC2vXho&t=23291s
+06:37:56 -  Function overriding (Virtual & Override) = https://www.youtube.com/watch?v=RkYVVC2vXho&t=23876s
+06:45:28 -  Abstract Contracts = https://www.youtube.com/watch?v=RkYVVC2vXho&t=24328s
+06:54:40 -  Interfaces = https://www.youtube.com/watch?v=RkYVVC2vXho&t=24880s
+07:03:51 -  Solidity Course outro = https://www.youtube.com/watch?v=RkYVVC2vXho&t=25431s
+07:05:09 -  Hardhat Introduction = https://www.youtube.com/watch?v=RkYVVC2vXho&t=25509s
+07:09:45 -  Hardhat Installation = https://www.youtube.com/watch?v=RkYVVC2vXho&t=25785s
+07:16:12 -  Hardhat Configuration - 1 = https://www.youtube.com/watch?v=RkYVVC2vXho&t=26172s
+07:31:42 -  Hardhat Configuration - 2 = https://www.youtube.com/watch?v=RkYVVC2vXho&t=25785s
+08:00:59 -  Compile Solidity Contracts = https://www.youtube.com/watch?v=RkYVVC2vXho&t=28859s
+08:09:49 -  Test & Debug Smart Contracts = https://www.youtube.com/watch?v=RkYVVC2vXho&t=29389s
+08:49:20 -  Deploy Smart Contracts = https://www.youtube.com/watch?v=RkYVVC2vXho&t=31760s
+09:06:00 -  Complete Ethers.js = https://www.youtube.com/watch?v=RkYVVC2vXho&t=32760s
+10:36:35 -  React Application Setup = https://www.youtube.com/watch?v=RkYVVC2vXho&t=38195s
+10:42:53 -  Metamask Interaction Methods = https://www.youtube.com/watch?v=RkYVVC2vXho&t=38573s
+11:43:56 -  Connecting Contracts to React = https://www.youtube.com/watch?v=RkYVVC2vXho&t=42236s
+12:14:40 -  Outro = https://www.youtube.com/watch?v=RkYVVC2vXho&t=44080s
+
+🧾Solidity Notes: https://drive.google.com/file/d/1bFTiUNWox1nxbjAOvXdLRtorVGVxiH7D/view
+
+💻Github: https://github.com/shuvishubham
+
+Featured playlist: https://www.youtube.com/playlist?list=PLR0uCBk15bq_YmvyVY5-SoT84Y4LQT6Q9
+
+Keywords: Blockchain Solidity Remix Hardhat Web3.js Ethers.js
