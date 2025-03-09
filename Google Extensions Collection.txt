@@ -35,6 +35,6 @@ ShareGPT: Share your ChatGPT conversations
 SVG Export
 Tabliss - A Beautiful New Tab
 UX Check
-Vex 4 https://www.youtube.com/watch?v=itqrbX30WkY
-WhatFont https://www.youtube.com/watch?v=itqrbX30WkY
+Vex 4
+WhatFont
 Project Naptha
